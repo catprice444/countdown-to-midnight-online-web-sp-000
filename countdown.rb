@@ -3,9 +3,8 @@ number = 5
 
 def countdown
   while number > 0
-    puts "{number} SECOND(S)!"
+    puts "#{number} SECOND(S)!"
     counter -= 1
   end
   returns "HAPPY NEW YEAR!"
-  binding.pry 
 end
